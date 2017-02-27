@@ -1,0 +1,15 @@
+PlaybackIntent play back
+PlaybackIntent playback
+PlaybackIntent play
+StopPlayingIntent go live
+StopPlayingIntent live
+StopPlayingIntent stop
+GoSixteenIntent go sixteen
+GoQuadIntent go quad
+FastRewindIntent fast rewind
+FastRewindIntent rewind
+FastForwardIntent fast forward
+FastForwardIntent forward
+ChangeChannelIntent switch channel {Channel}
+ChangeChannelIntent go channel {Channel}
+ChangeChannelIntent channel {Channel}

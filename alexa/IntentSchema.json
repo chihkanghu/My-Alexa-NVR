@@ -1,0 +1,43 @@
+{
+  "intents": [
+    {
+      "intent": "PlaybackIntent"
+    },
+    {
+      "intent": "StopPlayingIntent"
+    },
+    {
+      "intent": "GoSixteenIntent"
+    },
+    {
+      "intent": "GoQuadIntent"
+    },
+    {
+      "intent": "FastForwardIntent"
+    },
+    {
+      "intent": "FastRewindIntent"
+    },
+    {
+      "intent": "ChangeIntensityIntent",
+      "slots": [
+        {
+          "name": "IntensityLevel",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "ChangeChannelIntent",
+      "slots": [
+        {
+          "name": "Channel",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
