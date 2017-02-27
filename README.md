@@ -2,7 +2,7 @@
 
 A simply project demostrates how to voice-control a CGI based NVR via MQTT service via both Raspberry Pi and Alexa echo dot.
 
-![alt tag](https://github.com/chihkanghu/My-Alexa-NVR/blob/master/thesystem.png)
+![alt tag](https://github.com/chihkanghu/My-Alexa-NVR/blob/master/thesystem.png?raw=true)
 
 # The Video
 Visit the demo video at 
@@ -18,6 +18,8 @@ Prepare the following devices:
 * A network switch for Internet access
 
 Connect all these devices to the network switch.
+
+![alt tag](https://github.com/chihkanghu/My-Alexa-NVR/blob/master/diagram.png?raw=true)
 
 # Prerequisites
 
