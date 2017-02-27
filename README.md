@@ -16,6 +16,8 @@ Prepare the following devices:
 * LILIN NVR404c
 * A network switch for Internet access
 
+![alt tag](https://github.com/chihkanghu/My-Alexa-NVR/blob/master/diagram.png?raw=true)
+
 Connect all these devices to the network switch.
 
 # Prerequisites
