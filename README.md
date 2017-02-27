@@ -1,7 +1,9 @@
 # Alexa, play my NVR recording
 
 A simply project demostrates how to voice-control a CGI based NVR via MQTT service via both Raspberry Pi and Alexa echo dot.
-[https://github.com/chihkanghu/My-Alexa-NVR/blob/master/thesystem.png]
+
+(https://github.com/chihkanghu/My-Alexa-NVR/blob/master/thesystem.png)
+
 # The Video
 Visit the demo video at 
 [My voice-controlled network video recorder](https://www.youtube.com/watch?v=eVELFj-NKZg)
@@ -12,6 +14,7 @@ Prepare the following devices:
 * Alexa echo dot
 * Raspberry Pi 3
 * LILIN NVR404c
+* LILIN IP camera
 * A network switch for Internet access
 
 Connect all these devices to the network switch.
@@ -74,7 +77,7 @@ Up to this point, you can give it a try and see if your Lambda Node.js can commu
 sudo python app.py
 
 ### The NVR
-* Make sure that the NVR is within same subnet as your Raspberry Pi.
+* Make sure that the NVR is within the same subnet as your Raspberry Pi.
 * Modify gv_ipaddress, gv_username, gv_password accordingly for the NVR in app.py.
 
 After above steps, you can start to talk to your Alexa to operate your NVR by saying:
