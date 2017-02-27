@@ -1,4 +1,4 @@
-# Alexa, play my NVR recording
+# Alexa, play my NVR recordings
 
 A simply project demostrates how to voice-control a CGI based NVR via MQTT service via both Raspberry Pi and Alexa echo dot.
 
